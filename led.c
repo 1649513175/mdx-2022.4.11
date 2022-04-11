@@ -27,3 +27,5 @@ void led_flash(unsigned int ms)
 	hal_gpio_write(LED3_PORT, LED3,GPIO_RESET);
 	delay_ms(ms);
 }
+
+printf("hello world\n");
